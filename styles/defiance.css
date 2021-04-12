@@ -124,3 +124,33 @@
   .custom-file-input:active::before {
     background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
   }
+
+#box {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 400px;
+    margin-left: 338px;
+    margin-top: 10px;
+}
+
+
+#box h5 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-top: 15px;
+}
+
+#box input {
+    margin-left: 15px;
+    width: 60%;
+    height: 40px;
+    padding-left: 20px;
+    background: #FFFFFF;
+    border: 1px solid #888888;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
