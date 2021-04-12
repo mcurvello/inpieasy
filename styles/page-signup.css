@@ -1,0 +1,60 @@
+header{
+    width: 100vw;
+} 
+
+#box-signup {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 750px;
+    margin-left: 338px;
+    margin-top: 40px;
+    background: #FFFFFF;
+    padding: 35px;
+}
+
+#box-signup h2 {
+    font-weight: 600;
+    font-size: 20.16px;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+
+#box-signup h5 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+#box-signup input {
+    margin-left: 15px;
+    width: 94%;
+    height: 40px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    background: #FFFFFF;
+    border: 1px solid #888888;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+#box-signup button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 520px;
+    margin-top: 30px;
+    padding: 6px 16px 7px;
+    background: #1351B4;
+    width: 87px;
+    border-radius: 42px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    cursor: pointer;
+}
